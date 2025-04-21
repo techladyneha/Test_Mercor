@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
-LABLE description = "Base image for Mercor Python/Conda Interview task (black)"
-LABLE version="1.0"
+LABEL description = "Base image for Mercor Python/Conda Interview task (black)"
+LABEL version="1.0"
 
 ARG DEBIAN_FRONTEND=noninteractive
 EVN TZ=Etc/UTC
